@@ -2,26 +2,39 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>Contoso University</h1>
+<div id="home-images">
+    <img src="~/images/1.jpeg" alt="picture of a rack" id="image-1">
+    <img src="~/images/2.jpeg" alt="picture of a rack" id="image-2">
+    <img src="~/images/3.jpeg" alt="picture of a rack" id="image-3">
 </div>
 <div class="row">
-    <div class="col-md-4">
-        <h2>Welcome to Contoso University</h2>
+    <div class="col-md-6">
+        <h2>Welcome to Mexican University Enrollment</h2>
         <p>
-            Contoso University is a sample application that
-            demonstrates how to use Entity Framework Core in an
-            ASP.NET Core MVC web application.
+            This is our enrollment page please if you are a new student register first, then
+            add the classes you want to take this semester
         </p>
     </div>
-    <div class="col-md-4">
-        <h2>Build it from scratch</h2>
-        <p>You can build the application by following the steps in a series of tutorials.</p>
-        <p><a class="btn btn-default" href="https://docs.asp.net/en/latest/data/ef-mvc/intro.html">See the tutorial &raquo;</a></p>
+    <div class="col-lg-1"></div>
+    <div class="col-lg-5 image">
+        <img src="~/images/4.jpeg"/>
     </div>
-    <div class="col-md-4">
-        <h2>Download it</h2>
-        <p>You can download the completed project from GitHub.</p>
-        <p><a class="btn btn-default" href="https://github.com/aspnet/Docs/tree/master/aspnetcore/data/ef-mvc/intro/samples/cu-final">See project source code &raquo;</a></p>
+    <div class="col-md-6">
+        <h2>Student Registration Page</h2>
+        <p>You can register in the university by going to our student registration page</p>
+        <p><a class="btn btn-warning" href="Students/Create">Register &raquo;</a></p>
+    </div>
+    <div class="col-lg-1"></div>
+    <div class="col-lg-5 image">
+        <img src="~/images/6.jpeg" />
+    </div>
+    <div class="col-md-6">
+        <h2>Available classes</h2>
+        <p>You can see our different courses and the details for each of them</p>
+        <p><a class="btn btn-warning" href="Courses">See available classes &raquo;</a></p>
+    </div>
+    <div class="col-lg-1"></div>
+    <div class="col-lg-5 image">
+        <img src="~/images/5.jpeg" />
     </div>
 </div>

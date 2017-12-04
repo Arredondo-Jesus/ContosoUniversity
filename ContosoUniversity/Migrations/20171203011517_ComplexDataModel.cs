@@ -36,10 +36,10 @@ namespace ContosoUniversity.Migrations
                 oldNullable: true);
 
             //migrationBuilder.AddColumn<int>(
-                //name: "DepartmentID",
-                //table: "Course",
-                //nullable: false,
-                //defaultValue: 0);
+            //name: "DepartmentID",
+            //table: "Course",
+            //nullable: false,
+            //defaultValue: 0);
 
             migrationBuilder.CreateTable(
                 name: "Instructor",

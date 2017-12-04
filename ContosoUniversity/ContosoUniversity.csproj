@@ -21,6 +21,9 @@
 
   <ItemGroup>
     <None Include="Data\SchoolContext.cs" />
+    <None Include="wwwroot\images\1.jpeg" />
+    <None Include="wwwroot\images\2.jpeg" />
+    <None Include="wwwroot\images\3.jpeg" />
   </ItemGroup>
 
 </Project>
